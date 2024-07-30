@@ -29,7 +29,7 @@ const Home = ({ children }) => {
               <li className="font-bold text-white md:text-lg text-sm hover:text-xl text-center mt-3 cursor-pointer" onClick={handleMyExpense}>My Expense</li>
               <li className="font-bold text-white md:text-lg text-sm hover:text-xl text-center mt-3 cursor-pointer" onClick={handleAddExpense}>Add Expense</li>
             </ul>
-            <p className="font-semibold text-white h-9 w-9 pt-[65vh] hover:cursor-pointer" onClick={handleLogOut}>{<CiLogout/>}</p>
+            <p className="font-semibold text-white pt-[60vh] hover:cursor-pointer" onClick={handleLogOut}>{<CiLogout size={40}/>}</p>
           </div>
           <div className="flex-grow p-6 bg-gray-100 overflow-auto">
             {children}
