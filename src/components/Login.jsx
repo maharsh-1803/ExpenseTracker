@@ -14,7 +14,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        `${BASE_URL}/api/User/login`,
+        `${BASE_URL}/api/User/login`, 
         { email, password }
       );
       if (response.status >= 200 && response.status < 300) {
